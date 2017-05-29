@@ -278,6 +278,8 @@ span a {
 
 .lucas1,.lucas2,.lucas3,.lucas4 {
   width: 24%;
+  opacity:0.8;
+  filter: alpha(opacity = 80);
 }
 
 .lucas2,.lucas3,.lucas4 {
@@ -286,8 +288,8 @@ span a {
 }
 
 .lucas1:hover,.lucas2:hover,.lucas3:hover,.lucas4:hover {
- opacity:0.8;
- filter: alpha(opacity = 80);
+ opacity:1;
+ 
 }
 
 footer {
